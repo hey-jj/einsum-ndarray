@@ -1,0 +1,25 @@
+[package]
+name = "einsum-ndarray"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.75"
+authors = ["Justin Jones <hey.jones@icloud.com>"]
+license = "MIT"
+description = "Einstein summation for dynamically shaped ndarray arrays"
+keywords = ["einsum", "ndarray", "tensor", "linear-algebra", "scientific-computing"]
+categories = ["mathematics", "science"]
+readme = "README.md"
+repository = "https://github.com/hey-jj/einsum-ndarray"
+documentation = "https://docs.rs/einsum-ndarray"
+exclude = ["tests/common/naive.rs", "reviews/**", "fuzz/**"]
+
+[features]
+default = []
+blas = ["ndarray/blas"]
+openblas = ["blas"]
+
+[dependencies]
+ndarray = "0.17.2"
+
+[dev-dependencies]
+serde_json = "1.0"
