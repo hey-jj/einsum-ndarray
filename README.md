@@ -1,5 +1,7 @@
 # einsum-ndarray
 
+Unrelated to the `ndarray-einsum` crate. `einsum-ndarray` is an independent implementation with a contraction planner, typed errors, and ellipsis support.
+
 `einsum-ndarray` evaluates Einstein summation expressions on dynamically
 shaped [`ndarray`](https://docs.rs/ndarray) arrays. It supports explicit and
 implicit outputs, repeated-axis diagonals, ellipsis broadcasting, scalar

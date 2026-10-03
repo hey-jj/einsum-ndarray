@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1 - 2026-10-03
+
+- Add disambiguation note in README paragraph 1.
+
 ## 0.1.0 - 2026-08-22
 
 - Add one-shot Einstein summation for dynamic arrays.
